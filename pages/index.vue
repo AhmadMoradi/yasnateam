@@ -1,9 +1,7 @@
-<template>
+<template></template>
 
-</template>
-
-<script setup lang="ts">
-import {useAppStore} from "~/store/appStore";
+<script lang="ts" setup>
+import { useAppStore } from "~/store/appStore";
 
 const store = useAppStore();
 </script>
