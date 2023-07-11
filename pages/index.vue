@@ -1,4 +1,6 @@
-<template></template>
+<template>
+  <button class="btn btn-primary btn-lg">Start</button>
+</template>
 
 <script lang="ts" setup>
 import { useAppStore } from "~/store/appStore";
