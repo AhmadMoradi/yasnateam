@@ -1,11 +1,7 @@
 <template>
-  <button class="btn btn-primary btn-lg">Start</button>
+  <QuizView />
 </template>
 
 <script lang="ts" setup>
-import { useAppStore } from "~~/store/appStore";
-
-const store = useAppStore();
+import QuizView from "~/features/quiz/QuizView.vue";
 </script>
-
-<style scoped></style>
